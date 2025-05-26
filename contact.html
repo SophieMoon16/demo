@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onLoad="navigation();init();">
+    <header>
+      <nav id="navigation">
+        <button class="theme" id="button-theme" onclick="toggle()">
+          Light
+        </button>
+        <ul id="nav"></ul>
+      </nav>
+      >
+    </header>
+    <h2>Contactez-moi</h2>
+    <section>
+      <form id="form" novalidate>
+        <input id="name" type="text" placeholder="Votre nom" />
+        <span id="nameError" style="color: brown; display: none"
+          >Le nom est requis.</span
+        >
+        <br /><br />
+        <input id="mail" type="email" placeholder="Votre email" />
+        <span id="mailError" style="color: brown; display: none"
+          >Le mail au bon format est requis.</span
+        >
+        <br /><br />
+        <input id="tel" type="number" placeholder="Votre numéro de téléphone" />
+        <span id="telError" style="color: brown; display: none"
+          >Le téléphone au bon format est requis.</span
+        >
+        <br /><br />
+        <textarea id="textarea" rows="10"></textarea>
+        <span id="textError" style="color: brown; display: none"
+          >Un message est requis.</span
+        >
+        <br /><br />
+        <input type="submit" value="Envoyer" />
+      </form>
+    </section>
+    <footer id="footer">Tous droits réservés - Sophie LUU</footer>
+    <script src="js/script_contact.js" type="text/javascript"></script>
+  </body>
+</html>

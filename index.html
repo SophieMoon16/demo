@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onLoad="navigation();init()">
+    <header>
+      <nav id="navigation">
+        <button class="theme" id="button-theme" onclick="toggle()">
+          Light
+        </button>
+        <ul id="nav"></ul>
+      </nav>
+    </header>
+    <main class="home">
+      <section class="hero-text">
+        <h1>Hello World !</h1>
+        <br />
+        <p class="hero-p">
+          Bienvenue sur mon portfolio. <br /><br />
+          Durant mon temps libre et notamment dans le cadre de mes études de
+          développement chez les Descodeuses, j’ai eu l’occasion de faire plein
+          de projets incroyables.
+        </p>
+        <br />
+        <a href="portfolio.html"
+          ><input class="submit" type="submit" value="Voir mes projets"
+        /></a>
+      </section>
+      <section><img class="hero" src="images/hero.png" /></section>
+    </main>
+    <footer id="footer">Tous droits réservés - Sophie LUU</footer>
+    <script src="js/script_home.js" type="text/javascript"></script>
+  </body>
+</html>

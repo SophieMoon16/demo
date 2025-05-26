@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onLoad="portfolioDisplay();navigation();init()">
+    <header>
+      <nav id="navigation">
+        <button class="theme" id="button-theme" onclick="toggle()">
+          Light
+        </button>
+        <ul id="nav"></ul>
+      </nav>
+    </header>
+    <div class="select">
+      <select name="categories" id="categories">
+        <option value="Tout">Tout</option>
+        <option value="Junior">Junior</option>
+        <option value="Senior">Senior</option>
+        <option value="Confirme">Confirmé</option>
+      </select>
+    </div>
+    <section class="portfolio"><ul id="ul"></ul></section>
+    <footer id="footer">Tous droits réservés - Sophie LUU</footer>
+    <script src="js/script_portfolio.js" type="text/javascript"></script>
+  </body>
+</html>

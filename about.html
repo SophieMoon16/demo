@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body onLoad="navigation();init();">
+    <header>
+      <nav id="navigation">
+        <button class="theme" id="button-theme" onclick="toggle()">
+          Light
+        </button>
+        <ul id="nav"></ul>
+      </nav>
+    </header>
+    <section class="about">
+      <img class="profil" src="images/photo.png" />
+      <form method="get" action="cv_ok.pdf">
+        <button class="cv" type="submit">Voir mon CV</button>
+      </form>
+      <p>
+        Hey ! <br /><br />
+        C’est Sophie, développeuse Full-Stack ! Après des études d’Arts
+        Plastiques à l’Université Paris 8, j’ai choisi de compléter mon sens
+        artistique avec un métier plus technique celui du développement. Ainsi,
+        lier ma créativité et ma technicité en tant que codeuse est devenue une
+        passion.
+      </p>
+    </section>
+    <footer id="footer">Tous droits réservés - Sophie LUU</footer>
+    <script src="js/script_about.js" type="text/javascript"></script>
+  </body>
+</html>
